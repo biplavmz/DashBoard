@@ -1,0 +1,29 @@
+.menu{
+    background-color:   rgb(0,70,122);
+    color: white;
+    width: 300px;
+    height: 100%;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list:hover{
+    background-color: rgb(0,58,102);
+    cursor: pointer;
+}
+.dashboadMent{
+    background-color: orange;
+}
+.activeTab{
+    background-color: rgb(0,58,102);
+    color: white;
+}
+.menuContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
